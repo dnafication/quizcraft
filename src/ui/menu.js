@@ -5,7 +5,7 @@ import { DIFFICULTY_LEVELS, QUIZ_LIMITS } from '../constants.js';
 
 export async function showWelcome() {
   console.clear();
-  clack.intro(chalk.bgCyan.bold(' Quiz Master 🎯 '));
+  clack.intro(chalk.bgCyan.bold(' QuizCraft 🎯 '));
   
   await clack.group({
     welcome: () => clack.note(

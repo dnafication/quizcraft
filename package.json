@@ -1,11 +1,11 @@
 {
-  "name": "quiz-master-cli",
+  "name": "quizcraft",
   "version": "1.0.0",
   "description": "A beautiful TUI quiz application powered by quizapi.io",
   "main": "src/index.js",
   "type": "module",
   "bin": {
-    "quiz-master": "./src/index.js"
+    "quizcraft": "./src/index.js"
   },
   "scripts": {
     "start": "node src/index.js",
@@ -16,7 +16,8 @@
     "cli",
     "tui",
     "terminal",
-    "trivia"
+    "trivia",
+    "quizcraft"
   ],
   "author": "",
   "license": "ISC",

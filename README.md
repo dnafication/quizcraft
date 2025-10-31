@@ -1,4 +1,4 @@
-# Quiz Master CLI 🎯
+# QuizCraft 🎯
 
 A beautiful Terminal User Interface (TUI) quiz application that fetches questions from [quizapi.io](https://quizapi.io) and provides an interactive quiz experience.
 
@@ -50,7 +50,7 @@ Or if you want to use it as a global command:
 
 ```bash
 npm link
-quiz-master
+quizcraft
 ```
 
 ## How to Play
