@@ -59,9 +59,9 @@ export async function selectDifficulty() {
     message: 'Select difficulty level:',
     options: [
       { value: null, label: 'Mixed (All Levels)' },
-      { value: 'Easy', label: '🟢 Easy' },
-      { value: 'Medium', label: '🟡 Medium' },
-      { value: 'Hard', label: '🔴 Hard' }
+      { value: DIFFICULTY_LEVELS.EASY, label: '🟢 Easy' },
+      { value: DIFFICULTY_LEVELS.MEDIUM, label: '🟡 Medium' },
+      { value: DIFFICULTY_LEVELS.HARD, label: '🔴 Hard' }
     ]
   });
 

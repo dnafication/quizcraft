@@ -2,6 +2,8 @@
 
 A beautiful Terminal User Interface (TUI) quiz application that fetches questions from [quizapi.io](https://quizapi.io) and provides an interactive quiz experience.
 
+![screenshot of the application](image.png)
+
 ## Features
 
 - 🎨 Beautiful, colorful terminal interface
