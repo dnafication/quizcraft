@@ -11,49 +11,49 @@ A beautiful Terminal User Interface (TUI) quiz application that fetches question
 - 🎚️ Three difficulty levels (Easy, Medium, Hard)
 - 📊 Real-time score tracking
 - 💡 Answer explanations
-- 🔄 Play again option
 - ⚡ Fast and responsive
-
-## Prerequisites
-
-- Node.js v18 or higher
-- An API key from [quizapi.io](https://quizapi.io) (free tier available)
 
 ## Installation
 
-1. Clone the repository:
+### Global Installation (Recommended)
+
+Install QuizCraft globally via npm:
+
 ```bash
-git clone <repository-url>
-cd try-copilot
+npm install -g quizcraft
 ```
 
-2. Install dependencies:
+### Using npx (No Installation)
+
+Run QuizCraft without installing. You need to have the API key set up as described in the [Setup](#setup) section below.
+
 ```bash
-npm install
+npx quizcraft
 ```
 
-3. Set up your API key:
-   - Copy `.env.example` to `.env`
-   - Get your API key from [https://quizapi.io/clientarea/settings/token](https://quizapi.io/clientarea/settings/token)
-   - Add your API key to `.env`:
+## Setup
+
+Before using QuizCraft, you need an API key from [quizapi.io](https://quizapi.io) (free tier available):
+
+1. Get your free API key from [https://quizapi.io/clientarea/settings/token](https://quizapi.io/clientarea/settings/token)
+2. Create a `.env` file in your home directory or current directory:
+   ```bash
+   echo "QUIZ_API_KEY=your_actual_api_key_here" > .env
    ```
-   QUIZ_API_KEY=your_actual_api_key_here
+3. Or set it as an environment variable:
+   ```bash
+   export QUIZ_API_KEY=your_actual_api_key_here
    ```
 
 ## Usage
 
-Run the quiz application:
+Once you have your API key set up, run:
 
 ```bash
-npm start
-```
-
-Or if you want to use it as a global command:
-
-```bash
-npm link
 quizcraft
 ```
+
+Then follow the interactive prompts!
 
 ## How It Works
 
@@ -164,4 +164,4 @@ ISC
 
 ---
 
-Made with ❤️ and Node.js
+Made with ❤️ and Node.js and Copilot CLI!
