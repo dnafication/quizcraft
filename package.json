@@ -1,0 +1,30 @@
+{
+  "name": "quiz-master-cli",
+  "version": "1.0.0",
+  "description": "A beautiful TUI quiz application powered by quizapi.io",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "quiz-master": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "quiz",
+    "cli",
+    "tui",
+    "terminal",
+    "trivia"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "axios": "^1.13.1",
+    "chalk": "^5.6.2",
+    "dotenv": "^17.2.3",
+    "ora": "^9.0.0"
+  }
+}
