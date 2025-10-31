@@ -28,12 +28,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/quizcraft.git"
+    "url": "https://github.com/dnafication/quizcraft.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/quizcraft/issues"
+    "url": "https://github.com/dnafication/quizcraft/issues"
   },
-  "homepage": "https://github.com/yourusername/quizcraft#readme",
+  "homepage": "https://github.com/dnafication/quizcraft#readme",
   "engines": {
     "node": ">=18.0.0"
   },
