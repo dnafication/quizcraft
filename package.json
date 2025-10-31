@@ -1,6 +1,6 @@
 {
   "name": "quizcraft",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A beautiful TUI quiz application powered by quizapi.io - Test your knowledge with interactive quizzes in your terminal",
   "main": "src/index.js",
   "type": "module",
