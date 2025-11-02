@@ -40,7 +40,7 @@ src/
 - Always use ES module syntax (`import`/`export`, not `require`)
 - Prefer `const` over `let`, avoid `var`
 - Use async/await for asynchronous operations
-- Include proper error handling with try-catch blocks
+- Include proper error handling with try-catch blocks (especially for async operations, API calls, and user input processing)
 
 ### Code Style
 
@@ -161,12 +161,13 @@ async function fetchData(params) {
 
 ### Dependencies
 
-- **Don't add new dependencies** without good reason
+- **Carefully evaluate new dependencies** before adding them - prefer using existing libraries when possible
 - If a new dependency is needed:
   - Check if it's actively maintained
   - Verify it supports ES modules
   - Ensure it's compatible with Node.js >= 18
   - Consider bundle size for CLI tools
+  - Evaluate security and licensing implications
 
 ### NPM Scripts
 
